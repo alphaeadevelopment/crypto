@@ -1,0 +1,29 @@
+{
+  "name": "@alphaeadev/crypto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Graham King <gking2224@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.2.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.1.0",
+    "node-rsa": "^0.4.2"
+  },
+  "peerDependencies": {
+    "node-rsa": "^0.4.2",
+    "jsonwebtoken": "^8.1.0"
+  }
+}
