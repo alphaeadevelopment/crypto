@@ -8,6 +8,9 @@
     "deploy": "npm version patch && git push && git push --tags && npm run build && npm publish",
     "build": "NODE_ENV=production webpack"
   },
+  "publishConfig": {
+    "registry": "http://proliant:8081/repository/npm-releases/"
+  },
   "keywords": [],
   "author": "Graham King <gking2224@gmail.com>",
   "license": "ISC",
